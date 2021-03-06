@@ -1,0 +1,185 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  p {
+    color: #8f8f8f;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 500; */
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  .medium-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid {
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .color-section {
+      background-color: #0D3368;
+      color: #fff;
+  }
+  
+  .white-section {
+    background: #fff;
+  }
+  
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding:0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 20px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Download Buttons */
+  
+  .download-btn {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* Title Section */
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+  }
+  
+  /* Title Image */
+  
+  #title_img {
+    width: 45%;
+    position: absolute;
+    /* transform: rotate(25deg); */
+    /* right: 30%; */
+  }
+  
+  /* Features Section*/
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .box-feature {
+    padding: 5%;
+  }
+  
+  
+  
+  .icon-feature {
+    color: #11589F;
+    margin-bottom: 1rem;
+  }
+  
+  .icon-feature:hover {
+    color: #0D3368;
+  }
+  
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    background-color: #11589F;
+    color: #fff;
+  }
+  
+  .testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Press Section */
+  
+  #press {
+    background-color: #11589F;
+    padding-bottom: 3%;
+  }
+  
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* Pricing Section */
+  
+  #pricing {
+    padding: 100px;
+  
+  }
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Footer Section */
+  
+  #footer {
+    background-color: #fff;
+  }
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  
+  @media (max-width: 1028px) {
+    #title_img {
+        text-align: center;
+        position: static;
+        width: 85%;
+        margin-top: 0;
+    }
+  }
